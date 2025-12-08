@@ -1,27 +1,28 @@
 {
     "best_params": {
-        "border_count": 128,
-        "depth": 8,
-        "iterations": 300,
-        "l2_leaf_reg": 3,
-        "learning_rate": 0.1,
-        "best_cv_score": 0.9806132445141067
+        "depth": 6,
+        "iterations": 200,
+        "l2_leaf_reg": 7,
+        "learning_rate": 0.08,
+        "min_data_in_leaf": 5,
+        "best_cv_score": 0.9787343260188088
     },
-    "cv_score": 0.9806132445141067,
+    "cv_score": 0.9787343260188088,
     "test_metrics": {
-        "accuracy": 0.950920245398773,
-        "recall": 0.8977272727272727,
-        "f1_score": 0.8681318681318682,
-        "roc_auc": 0.9918385853547949,
-        "average_precision": 0.9686543729045805
+        "accuracy": 0.9550102249488752,
+        "recall": 0.9090909090909091,
+        "f1_score": 0.8791208791208791,
+        "roc_auc": 0.9919519383359783,
+        "average_precision": 0.9687345582889912
     },
     "cv_scores_per_fold": [
-        0.975,
-        0.971875,
-        0.9875,
-        0.9811912225705329,
-        0.9875
+        0.96875,
+        0.984375,
+        0.984375,
+        0.9749216300940439,
+        0.98125
     ],
-    "cv_mean": 0.9806132445141067,
-    "cv_std": 0.006372664937718578
+    "cv_mean": 0.9787343260188088,
+    "cv_std": 0.006069372912721683,
+    "note": "Pipeline-based CV (no data leakage)"
 }

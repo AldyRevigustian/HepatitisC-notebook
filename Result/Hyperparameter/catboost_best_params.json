@@ -1,8 +1,8 @@
 {
-    "border_count": 128,
-    "depth": 8,
-    "iterations": 300,
-    "l2_leaf_reg": 3,
-    "learning_rate": 0.1,
-    "best_cv_score": 0.9806132445141067
+    "depth": 6,
+    "iterations": 200,
+    "l2_leaf_reg": 7,
+    "learning_rate": 0.08,
+    "min_data_in_leaf": 5,
+    "best_cv_score": 0.9787343260188088
 }
