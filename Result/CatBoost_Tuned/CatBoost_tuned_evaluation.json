@@ -1,28 +1,28 @@
 {
     "best_params": {
+        "iterations": 153,
+        "learning_rate": 0.07368979444774407,
         "depth": 6,
-        "iterations": 200,
-        "l2_leaf_reg": 7,
-        "learning_rate": 0.08,
-        "min_data_in_leaf": 5,
-        "best_cv_score": 0.9787343260188088
+        "l2_leaf_reg": 6,
+        "min_data_in_leaf": 17,
+        "best_cv_score": 0.9756063871473355
     },
-    "cv_score": 0.9774804075235111,
+    "cv_score": 0.9756063871473355,
     "test_metrics": {
-        "accuracy": 0.9631901840490797,
+        "accuracy": 0.9611451942740287,
         "recall": 0.9204545454545454,
-        "f1_score": 0.9,
-        "roc_auc": 0.9923770120154161,
-        "average_precision": 0.9693242251369881
+        "f1_score": 0.8950276243093923,
+        "roc_auc": 0.9934538653366584,
+        "average_precision": 0.9732328161996763
     },
     "cv_scores_per_fold": [
+        0.971875,
         0.975,
         0.975,
-        0.984375,
         0.9686520376175548,
         0.984375
     ],
-    "cv_mean": 0.9774804075235111,
-    "cv_std": 0.006087951527328229,
+    "cv_mean": 0.974980407523511,
+    "cv_std": 0.005252636615705757,
     "note": "Pipeline-based CV (no data leakage)"
 }
