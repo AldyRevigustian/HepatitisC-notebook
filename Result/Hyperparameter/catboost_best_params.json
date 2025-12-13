@@ -1,8 +1,8 @@
 {
-    "iterations": 175,
-    "learning_rate": 0.07924366730175401,
+    "iterations": 188,
+    "learning_rate": 0.05676789261281223,
     "depth": 6,
     "l2_leaf_reg": 3,
     "min_data_in_leaf": 18,
-    "best_cv_score": 0.9777929075235111
+    "best_cv_score": 0.9777938871473355
 }
